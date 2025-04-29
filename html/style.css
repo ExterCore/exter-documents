@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lampard-signature');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    display: block;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    background-color: transparent !important;
+    /* overflow: hidden; */
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+	background: transparent;
+}
+
+#idCards {
+    width: 32%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1.5vw;
+}
+
+.idcard-container, .driverlicense-container {
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    height: 27%;
+    width: 100%;
+    border-radius: 15px;
+    background: linear-gradient(145deg, rgba(123, 184, 238, 1) 0%, rgba(230, 155, 195, 1) 100%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lspdbadge-container {
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    height: 27%;
+    width: 100%;
+    border-radius: 15px;
+    background: linear-gradient(145deg, rgba(123, 184, 238, 1) 0%, rgb(102, 121, 226) 100%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lsmsbadge-container {
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    height: 27%;
+    width: 100%;
+    border-radius: 15px;
+    background: linear-gradient(145deg, rgba(230, 155, 195, 1) 0%, rgb(224, 105, 111) 100%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weaponlicense-container, .huntinglicense-container {
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    height: 27%;
+    width: 100%;
+    border-radius: 15px;
+    background: linear-gradient(145deg, rgba(230,183,155,1) 0%, rgba(224,131,105,1) 100%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#IDCTopDiv {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#IDCTopDivBarrier {
+    width: 33%;
+    height: 15%;
+    background-color: #393b49;
+    position: relative;
+}
+
+#IDCTopDivCenter {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #393b49;
+}
+
+#IDCBottomDiv {
+    width: 100%;
+    height: 78%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.2vw;
+    /* background-color: red; */
+}
+
+#IDCBDImageDiv {
+    width: 23%;
+    height: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9dafd3;
+    /* overflow: hidden; */
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.215);
+}
+
+#IDCBottomDivImg {
+    width: 5.5vw;
+    position: relative;
+}
+
+#IDCBDRightSideDiv {
+    width: 64%;
+    height: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.7vw;
+    /* background-color: red; */
+}
+
+#IDCBDRightSideDivColumnDiv {
+    width: 45%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#IDCBDRightSideDivColumnDivInside {
+    width: 100%;
+    height: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#IDCBDRSDCDIDivTop {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    color: #393b49a3;
+    font-size: 0.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5vw;
+    /* background-color: red; */
+}
+
+#IDCBDRSDCDIDivTopBarrier {
+    width: 80%;
+    height: 28% !important;
+    max-height: 28% !important;
+    background: #393b4967;
+    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+    position: relative;
+}
+
+#IDCBDRSDCDIDivBottom {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    font-size: 0.9vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: red; */
+}
+
+#buyIDCDivTopEffect {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(360deg, #D9D9D9 0%, rgba(62, 199, 169, 0.00) 0.01%, rgba(8, 192, 152, 0.50) 100%);
+    z-index: 1;
+    display: none;
+}
+
+#buyIDCDiv {
+    width: 30%;
+    height: 15%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: radial-gradient(98.19% 84.24% at 29.44% -1.3%, #1D3545 0%, rgba(29, 53, 69, 0.00) 100%), #192029;
+    border-radius: 0 0 40px 40px;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    gap: 0.6vw;
+    overflow: hidden;
+    z-index: 2;
+    /* background-color: red; */
+}
+
+#buyIDCDivTopLeftEffect {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(134deg, rgba(17, 201, 170, 0.171) 14%, rgba(0, 0, 0, 0.00) 95.14%);
+}
+
+#buyIDCDivBottom {
+    width: 90%;
+    height: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 0.5vw;
+}
+
+#buyIDCDivBottomItemDiv {
+    width: 23%;
+    height: 90%;
+    border-radius: 6px;
+    position: relative;
+    background: radial-gradient(117.42% 78.38% at 50% 50%, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.00) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5vw;
+    text-shadow: 5px 5px 40px rgba(39, 211, 171, 0.589);
+    overflow: hidden;
+}
+
+#buyIDCDivBottomItemDivImage {
+    width: 4vw;
+    position: relative;
+}
+
+#buyIDCDBottomItemDivPrice {
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top: 9%;
+    right: 8%;
+    background-color: rgba(4, 211, 159, 0.471);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5vw;
+    border-radius: 2px;
+    box-shadow: 5px 5px 40px rgba(39, 211, 171, 0.589);
+    z-index: 3;
+}
+
+.buyIDCDBottomItemDivBuyDiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 2;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#buyIDCDBottomItemDivBuyDivButton {
+    width: 85%;
+    height: 17%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(4, 211, 159, 0.571);
+    border-radius: 2px;
+    box-shadow: 5px 5px 40px rgba(39, 211, 171, 0.589);
+    font-size: 0.5vw;
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+}
+
+#buyIDCDBottomItemDivBuyDivButton:hover {
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+    scale: 1.1;
+}
