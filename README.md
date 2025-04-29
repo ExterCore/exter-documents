@@ -120,5 +120,4 @@ huntinglicense = { name = 'huntinglicense', label = 'Hunter License', weight = 0
 ------------------------------------------------------------------------------------------
 [lspdbadge](https://github.com/user-attachments/assets/6b7b1c0f-1127-4291-b2bf-56f072c4adcf)
 ------------------------------------------------------------------------------------------
-
-[exter-documents](https://cdn.discordapp.com/attachments/1057975261146120264/1366786903138897930/bing.mp4?ex=681236ff&is=6810e57f&hm=28faa67705c077a3a72c6a4075b51177740eb4b44d49900730120a909d6e4620&)
+https://github.com/user-attachments/assets/0b35b46b-25bb-48f1-954d-0062a0167f1d
